@@ -6,6 +6,9 @@ Author: Geek Code Lab
 Version: 1.1
 Author URI: https://geekcodelab.com/
 Text Domain : polls-for-contact-form-7
+Github Plugin URI: geek-samarth/polls-for-contact-form-7
+Primary Branch: main
+Release Asset: true
 */
 if (!defined('ABSPATH')) exit;
 
@@ -208,5 +211,3 @@ function cf7p_result_btn(){
 }
 require_once(CF7P_PLUGIN_DIR_PATH . 'class-admin.php');
 require_once(CF7P_PLUGIN_DIR_PATH . 'functions.php');
-
-//Added comment to main file at last line New
